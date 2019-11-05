@@ -1,0 +1,42 @@
+
+<nav class="navbar navbar-inverse" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a href="index.hbs" class="navbar-brand" style="font-weight: bold; color:red; font-size:30px">ONLINE SHOP</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Tìm...">
+            </div>
+            <button type="submit" class="btn btn-default">Tìm kiếm</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="myBag">
+                <a class="dropdown-toggle" data-toggle="dropdown">Giỏ Hàng<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="cartManagement.hbs">Quản lý giỏ hàng</a></li>
+                    <li><a href="history.hbs">Thông tin lịch sử quá trình và trạng thái mua hàng</a></li>
+                    <li><a href="shipmentDetails.hbs">Thông tin giao hàng</a></li>
+                </ul>
+            </li>
+            <li class="myAccount">
+                <a class="dropdown-toggle" data-toggle="dropdown">Đăng Nhập<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="formDN.hbs">Đăng Nhập</a></li>
+                    <li><a href="refreshPassWord.hbs">Quên mật khẩu</a></li>
+                    <li><a href="editInformation.hbs">Chỉnh sửa thông tin cá nhân</a></li>
+                </ul>
+            </li>
+            <li><a href="formDK.hbs">Đăng Ký</a></li>
+        </ul>
+    </div><!-- /.navbar-collapse -->
+</nav>
